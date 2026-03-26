@@ -1,0 +1,5 @@
+Commits
+
+Main: Actualiza changelog a v1.1
+
+Feature-notas: Añade notas iniciales de la funcionalidad

@@ -1,0 +1,32 @@
+ronny@Ubu:~/Documents/actividad-6-4-introduccion-a-git-rebase-RonnyRJ$ git status
+interactive rebase in progress; onto 96726c4
+Last command done (1 command done):
+   pick dd0035c Añade notas iniciales de la funcionalidad
+Next command to do (1 remaining command):
+   pick a055e01 Modifica notas en feature-notas
+  (use "git rebase --edit-todo" to view and edit)
+You are currently rebasing branch 'feature-notas' on '96726c4'.
+  (fix conflicts and then run "git rebase --continue")
+  (use "git rebase --skip" to skip this patch)
+  (use "git rebase --abort" to check out the original branch)
+
+Unmerged paths:
+  (use "git restore --staged <file>..." to unstage)
+  (use "git add <file>..." to mark resolution)
+	both added:      notas.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	cp1-estado-inicial-rebase.txt
+	cp2-divergencia.txt
+	cp3-despues-rebase.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+# Notas de la funcionalidad
+
+<<<<<<< HEAD
+- Nota 1: versión desde main.
+=======
+- Nota 1: pendiente de completar.
+>>>>>>> dd0035c (Añade notas iniciales de la funcionalidad)

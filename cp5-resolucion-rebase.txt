@@ -1,0 +1,11 @@
+ronny@Ubu:~/Documents/actividad-6-4-introduccion-a-git-rebase-RonnyRJ$ git log --oneline --all
+a055e01 (HEAD -> feature-notas) Modifica notas en feature-notas
+96726c4 (main) Crea notas en main
+dd0035c Añade notas iniciales de la funcionalidad
+7a0324a Actualiza changelog a v1.1
+740019b Crea changelog con versión inicial
+03046e6 (origin/main, origin/HEAD) add deadline
+20f2714 Initial commit
+
+Para resolver el producto edite el erchivo notas.md
+Usaria git rebase --abort en caso de alguna equivocacion o cuando quiera deshacer el rebase completo.
